@@ -334,26 +334,3 @@ void skipz()
 
 {
 
-if (accumulate==0)
-
-{
-
-++progCount;
-
-}
-
-decod = 0;
-
-}
-
-//Causes an unconditional branch to instructionRegister address.
-
-void jump()
-
-{
-
-progCount = instructionRegister.deviceOrAddress;
-
-decod = 0;
-
-}
